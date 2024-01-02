@@ -1,0 +1,78 @@
+:root{
+  --Light-Cyan: hsl(193, 38%, 86%);
+  --Neon-Green: hsl(150, 100%, 66%);
+  --Neon-hover-Green: hsl(150, 97%, 58%);
+  --Grayish-Blue: hsl(217, 19%, 38%);
+  --Dark-Grayish-Blue: hsl(217, 19%, 24%);
+  --Dark-Blue: hsl(218, 23%, 16%);
+}
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed:wght@400;700&family=Kumbh+Sans:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,600&family=Noto+Sans+Georgian:wght@100;200;300;400;500;600;700;800;900&family=Noto+Sans+Glagolitic&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+html{
+  font-family: 'Kumbh Sans', sans-serif;
+  background-color: var(--Dark-Blue);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container{
+  background-color: var(--Dark-Grayish-Blue);
+  max-width: 400px;
+  width: 90%;
+  min-height: 250px;
+  padding: 20px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  border-radius: 10px;
+  position: relative;
+}
+.advice-num{
+  color: var(--Neon-Green);
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  padding: 10px 0;
+  display: block;
+}
+#img-btn{
+  background-color: var(--Neon-Green);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: -20px;
+  cursor: pointer;
+  border: none;
+}
+.img-btn:hover{
+  box-shadow: var(--Neon-hover-Green) 0px 10px 40px 4px;
+  transition: 0.5s;
+}
+.img-btn:focus{
+  box-shadow: var(--Neon-hover-Green) 0px 10px 40px 4px;
+  transition: 0.5s;
+}
+img{
+  max-width: 100%;
+}
+
+#advice-container{
+
+  font-size: 25px;
+  color: white;
+}
+#error-text{
+  color: red;
+  font-size: 14px;
+  display: block;
+  text-align: center;
+}
