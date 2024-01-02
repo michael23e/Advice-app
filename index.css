@@ -54,11 +54,11 @@ html{
   cursor: pointer;
   border: none;
 }
-.img-btn:hover{
+#img-btn:hover{
   box-shadow: var(--Neon-hover-Green) 0px 10px 40px 4px;
   transition: 0.5s;
 }
-.img-btn:focus{
+#img-btn:focus{
   box-shadow: var(--Neon-hover-Green) 0px 10px 40px 4px;
   transition: 0.5s;
 }
