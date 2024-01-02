@@ -30,6 +30,7 @@ html{
   flex-direction: column;
   border-radius: 10px;
   position: relative;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .advice-num{
   color: var(--Neon-Green);
@@ -75,4 +76,14 @@ img{
   font-size: 14px;
   display: block;
   text-align: center;
+}
+
+.attribution{
+  padding: 50px 0;
+  font-size: 20px;
+  color: var(--Light-Cyan);
+}
+.attribution a{
+  text-decoration: none;
+  color: var(--Neon-Green);
 }
